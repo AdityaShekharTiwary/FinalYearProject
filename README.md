@@ -1,7 +1,9 @@
 Go through this file . Contains all the information regarding the Project 
 
-1. Cloning the Repo :-
-Open you terminal and hit git clone https://github.com/AdityaShekharTiwary/FinalYearProject.git in the desired directory. 
+1. Cloning the Repo and Starting the App:-
+- Open you terminal and hit `git clone https://github.com/AdityaShekharTiwary/FinalYearProject.git` in the desired directory 
+- Type `npm i` in terminal to install the dependencies
+- Type `npm start` to start running the app in localhost
 
 2. Branch :-
 'alpha' is the main branch for this project .
