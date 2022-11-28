@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Navigate,
 } from "react-router-dom";
 
 
@@ -16,6 +16,7 @@ function App() {
       <div className="">
         <Navbar />
         <Routes>
+        <Route path="/" element={<Navigate replace to="/home" />} />
           <Route exact path="/home" element={<><Home /></>}></Route>
           <Route exact path="/upload" element={<><Upload /></>}></Route>
           <Route exact path="/about" element={<><About /></>}></Route>

@@ -4,16 +4,10 @@ const upload = () => {
     return (
         <div className='upload-container m-5'>
             <div className="header-text text-center">
-                What exactly Project Name is ?
+                What exactly does our project do?
             </div>
             <div className="header-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut non veritatis provident quas nesciunt voluptates, animi illum cumque vitae, possimus soluta repellendus debitis praesentium aliquam ipsam enim accusamus velit.
-            </div>
-            <div className="header-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut non veritatis provident quas nesciunt voluptates, animi illum cumque vitae, possimus soluta repellendus debitis praesentium aliquam ipsam enim accusamus velit.
-            </div>
-            <div className="header-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut non veritatis provident quas nesciunt voluptates, animi illum cumque vitae, possimus soluta repellendus debitis praesentium aliquam ipsam enim accusamus velit.
+            The web app aims to generate a Super Resolution image of your low resolution image/ Night Vision image using Generative Adversarial Network. Upload your image here to get an optimized image.
             </div>
             <input className='' type="file" id="file-input" />
             <button> Proceed</button>

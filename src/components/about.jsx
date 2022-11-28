@@ -9,9 +9,11 @@ const about = () => {
             </div>
             <div className="about-desc">
                 This Project is under the guidance of Prof. Rahul Das Gupta , Techno Main saltlake.
-                <br/>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, voluptatum beatae! Vero, aut quas rerum unde praesentium aperiam at eos, fugit minus perferendis labore officiis autem. Doloribus voluptate modi rem?
             </div>
+            <br/>
+            <h1>
+                Team Members
+            </h1>
             <div className="">
                 <div className="d-flex flex-col justify-content-evenly p-5">
                     <Avatar name="Aditya Shekhar Tiwary" gender="male"/>
